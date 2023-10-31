@@ -12,3 +12,4 @@ RUN mkdir -p build && \
     cmake --build . -j
 
 RUN ls build
+VOLUME ["/project/build"]
